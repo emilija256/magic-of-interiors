@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Saira+Extra+Condensed:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:#d2b48c;
+}
+header{
+	width:100%;
+	height:100%;
+	padding:15px 0px;
+	margin:0px auto;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	background-color:#ba702b;
+}
+ul{
+	list-style-type:none;
+	margin:0px;
+	padding:10px 0px;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+li{
+	margin-right:30px;
+	display:inline-block;
+}
+#logo a{
+	text-decoration:none;
+	color:#fff;
+	font-family: "Nunito",sans-serif;
+}
+nav a{
+	text-decoration:none;
+	color:#fff;
+	transition: color 0.3s ease;
+	font-size:18px;
+	font-family: "Nunito",sans-serif;
+}
+nav a:hover{
+	color:#ff6e00a4;
+}
+p{
+	font-size:18px;
+}
+#logo{
+	margin-left:70px;
+}
+h1{
+	color:#fff;
+}
+#pozadina{
+	background-image: url(../img/pozadina.jpg);
+	width:100%;
+	height:666px;
+	background-size:cover;
+	background-position:center;
+	display:flex;
+	justify-content:center;
+	position:relative;
+	align-items:end;
+}
+.poz-slika{
+	width:100%;
+	position:absolute;
+	display:flex;
+	justify-content:center;
+}
+.tekst{
+	text-align:center;
+	margin-bottom:50px;
+}
+.tekst1{
+	text-align:center;
+	margin-bottom:20px;
+}
+b{
+	color:#fff;
+	font-size:25px;
+}
+#welcome{
+	margin-top:40px;
+	width:100%;
+}
+.sadrzaj{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+.sadrzaj img{
+	border-radius: 10px;
+}
+.tekst2{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	margin-left:50px;
+	width:50%;
+}
+h2{
+	margin-bottom:40px;
+	text-align:center;
+	color:#ba702b;
+	font-size:33px;
+}
+.tekst2 p{
+	text-align:justify;
+	font-size:17px;
+	color:#fff;
+	font-family: "Raleway", sans-serif;
+}
+.linija{
+	display:flex;
+	justify-content:center;
+	width:100%;
+}
+hr{
+	width:50%;
+	margin:30px 0px;
+}
+.usluga{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	width:80%;
+	margin:0px auto;
+}
+.usluga1{
+	border-radius:10px;
+	width:30%;
+	background-color:#ba702b;
+}
+.pozicija{
+	margin:10%;
+	text-align:center;
+}
+.pozicija h3{
+	color:#fff;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:20px;
+	font-size:18px;
+	font-family: "Nunito",sans-serif;
+}
+.pozicija p{
+	color:#fff;
+	font-family: "Raleway", sans-serif;
+	font-size:16px;
+}
+.red{
+	margin-top:8%;
+}
+footer{
+	display: flex;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+	background-color:#ba702b;
+	padding:10px;
+	margin-top:60px;
+}
+.levo{
+	flex:1;
+	margin-left:40px;
+	margin-top:20px;
+}
+.levo p{
+	font-size:17px;
+	color:#fff;
+	font-family: "Raleway", sans-serif;
+}
+.ikonice{
+	display:flex;
+	gap:30px;
+	margin-right:40px;
+	font-size:20px;
+}
+.ikonice i{
+	width:20px;
+	height:20px;
+	color:#fff;
+	margin-top:125px;
+}
+#firma{
+	width:100%;
+	margin-top:40px;
+}
+.o_nama{
+	justify-content:center;
+	margin:0px 50px;
+}
+.o_nama p{
+	color:#fff;
+	font-size:17px;
+	font-family: "Raleway", sans-serif;
+}
+#autor{
+	margin-top:60px;
+	width:100%;
+}
+.autor1{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+.slikaautor img{
+	border-radius:10px;
+}
+.slikaautor:hover img {
+    transform: scale(1.02); 
+}
+.tekstautor{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	margin-left:50px;
+	width:50%;
+}
+.tekstautor p{
+	text-align:justify;
+	font-size:17px;
+	color:#fff;
+	font-family: "Raleway", sans-serif;
+}
+.tekstautor b{
+	color:#ba702b;
+	font-size:17px;
+	font-family: "Raleway", sans-serif;
+}
+firma1{
+	width:100%; 
+	margin-top:40px;
+}
+.o_nama1{
+	justify-content:center; 
+	margin:0px 50px;
+}
+.o_nama1 p{
+	color:#fff; 
+	font-size:17px;
+	font-family: "Raleway", sans-serif;
+}
+#o_nama_slike{
+	display:flex;
+	justify-content:space-around;
+	margin:40px;
+}
+.slike{
+	display:flex;
+	justify-content:space-between;
+}
+.slike:hover img{
+	transform: scale(1.05);
+}
+#o_nama_slike img{
+	border-radius:10px;
+}
+#nasi_projekti{
+	margin-top:40px;
+	width:100%;
+}
+.projekat{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+.projekat_tekst{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	margin-right:50px;
+	width:50%;
+}
+.projekat_tekst p{
+	text-align:justify;
+	font-size:17px;
+	color:#fff;
+	font-family: "Raleway", sans-serif;
+}
+.slika_projekat img{
+	border-radius:10px;
+}
+.projekat_tekst a{
+	text-decoration:none;
+}
+.projekat_tekst b{
+	color:#ba702b;
+	font-size:18px;
+	font-family: "Raleway", sans-serif;
+}
+.projekat_tekst b:hover{
+	color:#ff6e00a4;
+}
+#kontaktirajte-nas{
+	margin-top:50px;
+	width:100%
+}
+.kontakt_tekst{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+.tekst_kontakt{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	width:50%;
+	margin-right:70px;
+}
+.tekst_kontakt p{
+	text-align:justify;
+	font-size:17px;
+	color:#fff;
+	font-family: "Raleway", sans-serif;
+}
+.tekst_kontakt h3{
+	text-align:center;
+	font-size:24px;
+	color:#ba702b;
+	margin-bottom:20px;
+	font-family: "Nunito",sans-serif;
+}
+.kontaktiranje{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forma{
+	width:30%;
+	background-color:#ba702b;
+	border-radius:10px;
+	justify-content:center;
+	align-items:center;
+}
+form{
+	padding:20px;
+	border-radius:10px;
+}
+label{
+	color:#fff;
+}
+input{
+	width:90%;
+	padding:20px;
+	margin-bottom:10px;
+	border-radius:10px;
+	border:none;
+	margin:0px auto;
+}
+textarea{
+	width:90%;
+	padding:20px;
+	margin-bottom:10px;
+	border-radius:10px;
+	border:none;
+	margin:0px auto;
+}
+.proba{
+	margin:0px auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+button{
+	background-color:#ba702b;
+	color:#fff;
+	padding:10px 20px;
+	border:1px solid #fff;
+	border-radius:5px;
+	cursor:pointer;
+	transition: color 0.3s ease;
+	margin-top:10px;
+}
+button:hover{
+	color:#ff6e00a4;
+}
+.dodatni_kontakt p{
+	color:#fff;
+	font-size:17px;
+	margin-left:90px;
+	font-family: "Raleway", sans-serif;
+}
+.dodatni_kontakt{
+	width:35%;
+}
+#cene_usluga{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.primer_cene{
+	width:18%;
+	padding:20px;
+	border: 3px solid #ba702b;
+	text-align:center;
+	margin:10px 20px;
+	border-radius:10px;
+}
+.primer_cene img{
+	max-width:100%;
+	border-radius:10px;
+}
+.primer_cene p{
+	color:#fff;
+	font-size:18px;
+	margin-top:10px;
+	font-family: "Raleway", sans-serif;
+}
+.primer_cene b{
+	color:#ba702b;
+	font-size:20px;
+	margin-top:10px;
+	font-family: "Raleway", sans-serif;
+}
+#cene_tekst{
+	justify-content:center;
+	margin:0px 50px;
+}
+#cene_tekst p{
+	color:#fff;
+	font-size:17px;
+	text-align:center;
+	font-family: "Raleway", sans-serif;
+}
+iframe{
+	border-radius:10px;
+}
+#naslov_galerija{
+	text-align:center;
+	margin-top:100px;
+}
+.pomeranje-slika-gallery{
+	display:flex;
+	flex-direction:column;
+	width:100%;
+	animation: slide-in 1s ease-out;
+}
+.red-slika-gallery{
+	display:flex;
+}
+.pomerajuca-slika{
+	flex:1;
+	box-sizing:border-box;
+	margin:0px 20px;
+	animation: fade-in 1s ease-out forwards;
+}
+.pomerajuca-slika img{
+	width:100%;
+	height:300px;
+	border-radius:10px;
+	margin:30px 0px;
+}
+.pomerajuca-slika:hover img{
+	transform: scale(1.02);
+}
+@keyframes slide-in{
+	0% {
+		transform:translateY(50px);
+	}
+	100% {
+		transform:translateY(0);
+	}
+}
+@keyframes fade-in{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}
+h2{
+	font-family: "Nunito",sans-serif;
+}
